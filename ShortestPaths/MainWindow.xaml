@@ -1,0 +1,25 @@
+﻿<Window x:Class="ShortestPaths.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShortestPaths"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid VerticalAlignment="Top" HorizontalAlignment="Left" ShowGridLines="True" Width="250" Height="100">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Button Name="btn1" BorderBrush="Black" Click="OnNetwork1" Grid.Row="0" Grid.Column="0">Network 1</Button>
+        <Button Name="btn2" BorderBrush="Black" Click="OnNetwork2" Grid.Row="1" Grid.Column="0">Network 2</Button>
+        <Button Name="btn3" BorderBrush="Black" Click="OnNetwork3" Grid.Row="2" Grid.Column="0">Network 3</Button>
+    </Grid>
+</Window>
