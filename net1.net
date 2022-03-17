@@ -1,0 +1,9 @@
+2 # Num nodes.
+1 # Num links.
+
+# Nodes.
+20,20,A
+120,120,B
+
+# Links.
+0,1,10
